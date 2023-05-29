@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Liceo Rovira</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="/"><img src="/images/logo-liceo-rovira.png" alt=""></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Inicio</a></li>
+            <li>
+                <a href="#">Institución</a>
+                <ul class="menu-vertical">
+                    <li><a href="#">Historia</a></li>
+                    <li><a href="#">Misión</a></li>
+                    <li><a href="#">Visión</a></li>
+                    <li><a href="#">Docentes</a></li>
+                </ul>
+            </li>
+            <li><a href="https://colegiosonline.com/secure/paginas/?ie=liceorovira" target="_blank">Notas</a></li>
+            <li><a href="#">Servicios</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div class="container-all">
+            <input type="radio" id="1" name="image-slide" hidden/>
+            <input type="radio" id="2" name="image-slide" hidden/>
+            <input type="radio" id="3" name="image-slide" hidden/>
+                <div class="slide">
+                    <div class="item-slide">
+                        <img src="images/img-1.jpg">
+                    </div>
+                    <div class="item-slide">
+                        <img src="images/img-2.jpg">
+                    </div>
+                    <div class="item-slide">
+                        <img src="images/img-3.jpg">
+                    </div>
+                </div>
+
+            <div class="pagination">
+                <label class="pagination-item" for="1">
+                    <img src="images/img-1.jpg">
+                </label>
+                
+                <label class="pagination-item" for="2">
+                    <img src="images/img-2.jpg">
+                </label>
+                
+                <label class="pagination-item" for="3">
+                    <img src="images/img-3.jpg">
+                </label>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="boton">
+        <div class="buttons">
+            <a href="gestion-acade.html">
+                <button class="btn g-academica">
+                    <h2>GESTIÓN <br> ACADÉMICA</h2>
+                    <img src="icons/study.png" alt="g-academica">
+                </button>
+            </a>
+            <a href="gestion-com.html">
+                <button class="btn g-comunitaria">
+                        <h2>GESTIÓN COMUNITARIA</h2>
+                        <img src="icons/pencil.png" alt="g-comunitaria">
+                </button>
+            </a>
+            <button class="btn eventos">
+                    <h2>EVENTOS</h2>
+                    <img src="icons/calendar-check-svgrepo-com.png" alt="eventos">
+            </button>
+        </div>
+    </section>
+    <section id="xp">
+        <div class="experience">
+            <div class="info-text">
+                <h2 class="title-xp">Nuestra experiencia educativa</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates odio officia maiores eaque assumenda minima non at. Sit suscipit ducimus accusantium natus porro quisquam, in est quibusdam temporibus! Omnis, consequuntur.</p> <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem corrupti nostrum error temporibus quidem, cumque hic possimus, perferendis ullam necessitatibus est esse, repudiandae aspernatur sit mollitia eum assumenda neque quod!</p> <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem corrupti nostrum error temporibus quidem, cumque hic possimus, perferendis ullam necessitatibus est esse, repudiandae aspernatur sit mollitia eum assumenda neque quod!</p> <br>
+            </div>
+            <div class="xp-img">
+                <img src="/images/liceo-rovira-section.jpg" alt="img">
+            </div>
+        </div>
+    </section>
+    <section id="maps">
+        <div class="map-box">
+            <h1>NUESTRA CASA</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.9312372612294!2d-75.24417928474905!3d4.23365674670771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e39279bd576df95%3A0x7215db8e8eba5e92!2sLiceo%20Rovira!5e0!3m2!1ses!2sco!4v1677358828263!5m2!1ses!2sco" width="100%" height="600px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+<section id="contacto">
+        <h2>Contacto</h2>
+        <form id="contact-form">
+        <div>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+        </form>
+</section>
+
+    <footer id="footer">
+            <div class="contacto">
+                <div class="info-text-1">
+                <h2>Contacto</h2>
+                    <p>Liceo Rovira <br> 
+                        Calle 14 #NO. 550, Rovira - Tolima <br>
+                        Colombia <br> <br>
+                    </p>
+                    <p>
+                        Pbx { +57 1}234567890 <br> <br>
+                    </p>
+                    <p>
+                        SECRETARÍA GENERAL Y ACADÉMICA <br>
+                        1234567890 - 9876543210 EXT - 101 <br>
+                        s.academica@liceorovira.edu.co
+                    </p>
+                </div>
+                <div class="info-text-2">
+                    <p>SECRETARÍA ADMINISTRATIVA <br> 
+                        1234567890 - 9876543210 EXT - 102 <br>
+                        contabilidad@liceorovira.edu.co <br> <br>
+                    </p>
+                    <p>
+                        SECRETARÍA DE TALENTO HUMANO Y ADMISIONES <br>
+                        1234567890 - 9876543210 EXT - 103 <br>
+                        c.talentohumanoa@liceorovira.edu.co
+                    </p>
+                </div>
+                <div class="img-footer">
+                    <img src="images/logo-liceo-rovira.png" alt="">
+                </div>
+            </div>
+            <h1></h1>
+        </footer>
+        <script src="funcion.js"></script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+/* hero */
+
+.container{
+    position: relative;
+    text-align: center;
+}
+.container img{
+    filter: brightness(40%) saturate(80%);
+    max-width: 100%;
+    object-fit:cover;
+}
+.text-container{
+    font-size: 3em;
+    color:#fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#conviven {
+    padding: 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.convivencia{
+    display: flex;
+    flex-direction: row;
+}
+.title-convivencia{
+    padding-top: 1em;
+    font-weight:bolder;
+    font-size:xx-large ;
+    text-decoration: underline;
+}
+.info-text{
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+    justify-content: center;
+}
+.info-text p{
+    display: flex;
+    flex-direction: column;
+    font-size:medium;
+    margin: 1em 0;
+    width: 80%;
+}
+.convivencia-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.convivencia-img img{
+    justify-content: center;
+    max-width: 25em;
+    height: auto;
+    border-radius: 20px;
+}
+#psico-acomp{
+    padding: 0em 5em;
+    display: flex;
+    background-color: #F3D037;
+    height: 675px;
+    width: 100%;
+}
+.psico-acomp-img{
+    padding-right: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.psico-acomp-img img{
+    justify-content: center;
+    max-width: 25em;
+    height: auto;
+    border-radius: 20px;
+}
+.psico-acomp-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5em;
+    align-items: initial;
+    justify-content: center;
+}
+.psico-acomp-text h1{
+    font-size: xx-large;
+    text-decoration: underline;
+}
+.psico-acomp-text p{
+    display: flex;
+    font-size:medium;
+    margin: 1em 0;
+    width: 80%;
+}
+
+
+/* responsive apart */
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+    display: flex;
+    flex-direction: column;
+    }
+    .nav-links li{
+        margin-bottom: 0.6em;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1em 0;
+    }
+    .btn{
+        margin-top: 2em;
+    }
+    #xp{
+        padding: 1em;
+        flex-direction: column;
+    }
+    .experience{
+        flex-direction: column;
+    }
+    .info-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .xp-img img{
+        align-items: center;
+        justify-content: center;
+    }
+    .xp-img img{
+        width: 80%;
+    }
+    .img-footer{
+        display: none;
+    }
+    #convivencia{
+        flex-direction: column;
+    }
+    .convivencia-img{
+        margin-top: 2em;
+    }
+    .convivencia-img img{
+        max-width: 85%;
+    }
+    .convivencia-text{
+        display: flex;
+        flex-direction: column;
+    }
+}
